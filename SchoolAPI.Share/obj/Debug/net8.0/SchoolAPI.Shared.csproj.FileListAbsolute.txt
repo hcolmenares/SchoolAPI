@@ -1,0 +1,12 @@
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\bin\Debug\net8.0\SchoolAPI.Shared.deps.json
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\bin\Debug\net8.0\SchoolAPI.Shared.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\bin\Debug\net8.0\SchoolAPI.Shared.pdb
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\SchoolAPI.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\SchoolAPI.Shared.AssemblyInfoInputs.cache
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\SchoolAPI.Shared.AssemblyInfo.cs
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\SchoolAPI.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\SchoolAPI.Shared.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\refint\SchoolAPI.Shared.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\SchoolAPI.Shared.pdb
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\ref\SchoolAPI.Shared.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\SchoolAPI.Shared.csproj.AssemblyReference.cache

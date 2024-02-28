@@ -1,0 +1,17 @@
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\bin\Debug\net8.0\SchoolAPI.Business.deps.json
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\bin\Debug\net8.0\SchoolAPI.Business.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\bin\Debug\net8.0\SchoolAPI.Business.pdb
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\obj\Debug\net8.0\SchoolAPI.Business.csproj.AssemblyReference.cache
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\obj\Debug\net8.0\SchoolAPI.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\obj\Debug\net8.0\SchoolAPI.Business.AssemblyInfoInputs.cache
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\obj\Debug\net8.0\SchoolAPI.Business.AssemblyInfo.cs
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\obj\Debug\net8.0\SchoolAPI.Business.csproj.CoreCompileInputs.cache
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\obj\Debug\net8.0\SchoolAPI.Business.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\obj\Debug\net8.0\refint\SchoolAPI.Business.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\obj\Debug\net8.0\SchoolAPI.Business.pdb
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\obj\Debug\net8.0\ref\SchoolAPI.Business.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\bin\Debug\net8.0\SchoolAPI.Data.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\bin\Debug\net8.0\SchoolAPI.Shared.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\bin\Debug\net8.0\SchoolAPI.Data.pdb
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\bin\Debug\net8.0\SchoolAPI.Shared.pdb
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Business\obj\Debug\net8.0\SchoolAP.9CFAF99C.Up2Date
