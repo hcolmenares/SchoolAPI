@@ -10,3 +10,4 @@ C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\n
 C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\SchoolAPI.Shared.pdb
 C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\ref\SchoolAPI.Shared.dll
 C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\SchoolAPI.Shared.csproj.AssemblyReference.cache
+C:\Users\Admin1\Documents\Recursos\NetCore\SchoolAPI\SchoolAPI.Share\obj\Debug\net8.0\SchoolAPI.Shared.sourcelink.json

@@ -1,4 +1,5 @@
-﻿using SchoolAPI.Shared.Extensions;
+﻿using SchoolAPI.Shared.Dto.ModelsDto;
+using SchoolAPI.Shared.Extensions;
 
 namespace SchoolAPI.Business.Interfaces.IServices
 {

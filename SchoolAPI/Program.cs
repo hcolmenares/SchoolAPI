@@ -1,14 +1,8 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI.Services;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using SchoolAPI.Business.MappingProfiles;
-using SchoolAPI.Configuration;
+using SchoolAPI.Business.DoI;
 using SchoolAPI.Data;
 using SchoolAPI.Services;
 using SchoolAPI.Shared.Models;
-using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,41 +13,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<Context>((serviceProvider, options) =>
-{
-    options.UseMySql(builder.Configuration.GetConnectionString("connection"),
-        new MySqlServerVersion(new Version(8, 0, 27)));
-});
+builder.Services.AddDbContext(builder.Configuration);
 
-builder.Services.AddAutoMapper(typeof(MappingConfig));
+builder.Services.AddCustomServices();
 
-builder.Services.Configure<JwtConfig>(builder.Configuration.GetSection("JwtConfig"));
-
-/* Email */
-builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
-builder.Services.AddSingleton<IEmailSender, EmailServices>();
-
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(jwt =>
-{
-    var key = Encoding.ASCII.GetBytes(builder.Configuration.GetSection("JwtConfig:Secret").Value);
-
-    jwt.SaveToken = true;
-    jwt.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
-    {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        //Esta opcion se deja en falso en el entorno de desarrollo, pero en produccion debe ir verdadero
-        ValidateIssuer = false,
-        ValidateAudience = false,
-        RequireExpirationTime = false,
-        ValidateLifetime = true,
-    };
-});
+builder.Services.AddAuthenticationAndEmailServices(builder.Configuration);
 
 builder.Services.AddIdentity<User, IdentityRole>(
 options =>
