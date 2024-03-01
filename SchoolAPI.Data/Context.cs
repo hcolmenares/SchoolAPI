@@ -12,14 +12,15 @@ namespace SchoolAPI.Data
 
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlite();
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlite();
+        //}
 
         public DbSet<School> schools { get; set; }
         public DbSet<Professor> professors { get; set; }
         public DbSet<Course> courses { get; set; }
         public DbSet<Student> students { get; set; }
+        public DbSet<Tutor> tutors { get; set; }
     }
 }

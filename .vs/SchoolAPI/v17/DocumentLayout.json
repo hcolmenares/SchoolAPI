@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin1\\Documents\\Recursos\\NetCore\\SchoolAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3029375C-A0E2-460C-B004-B443136BBC78}|SchoolAPI.Share\\SchoolAPI.Shared.csproj|c:\\users\\admin1\\documents\\recursos\\netcore\\schoolapi\\schoolapi.share\\dto\\modelsdto\\studeneditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3029375C-A0E2-460C-B004-B443136BBC78}|SchoolAPI.Share\\SchoolAPI.Shared.csproj|solutionrelative:schoolapi.share\\dto\\modelsdto\\studeneditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F7A1336-C33E-4E7B-87C7-96B5E1882D6F}|SchoolAPI\\SchoolAPI.csproj|c:\\users\\admin1\\documents\\recursos\\netcore\\schoolapi\\schoolapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F7A1336-C33E-4E7B-87C7-96B5E1882D6F}|SchoolAPI\\SchoolAPI.csproj|solutionrelative:schoolapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3029375C-A0E2-460C-B004-B443136BBC78}|SchoolAPI.Share\\SchoolAPI.Shared.csproj|c:\\users\\admin1\\documents\\recursos\\netcore\\schoolapi\\schoolapi.share\\dto\\modelsdto\\studentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3029375C-A0E2-460C-B004-B443136BBC78}|SchoolAPI.Share\\SchoolAPI.Shared.csproj|solutionrelative:schoolapi.share\\dto\\modelsdto\\studentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F7A1336-C33E-4E7B-87C7-96B5E1882D6F}|SchoolAPI\\SchoolAPI.csproj|c:\\users\\admin1\\documents\\recursos\\netcore\\schoolapi\\schoolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F7A1336-C33E-4E7B-87C7-96B5E1882D6F}|SchoolAPI\\SchoolAPI.csproj|solutionrelative:schoolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,28 +70,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Admin1\\Documents\\Recursos\\NetCore\\SchoolAPI\\SchoolAPI.Share\\Dto\\ModelsDto\\StudentCreateDto.cs",
-              "RelativeDocumentMoniker": "SchoolAPI.Share\\Dto\\ModelsDto\\StudentCreateDto.cs",
-              "ToolTip": "C:\\Users\\Admin1\\Documents\\Recursos\\NetCore\\SchoolAPI\\SchoolAPI.Share\\Dto\\ModelsDto\\StudentCreateDto.cs",
-              "RelativeToolTip": "SchoolAPI.Share\\Dto\\ModelsDto\\StudentCreateDto.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAIwA8AAAAuAAAA",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin1\\Documents\\Recursos\\NetCore\\SchoolAPI\\SchoolAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SchoolAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Admin1\\Documents\\Recursos\\NetCore\\SchoolAPI\\SchoolAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SchoolAPI\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAADgv98AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T21:45:50.752Z",
+              "WhenOpened": "2024-03-01T21:05:22.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudenEditDto.cs",
-              "DocumentMoniker": "C:\\Users\\Admin1\\Documents\\Recursos\\NetCore\\SchoolAPI\\SchoolAPI.Share\\Dto\\ModelsDto\\StudenEditDto.cs",
-              "RelativeDocumentMoniker": "SchoolAPI.Share\\Dto\\ModelsDto\\StudenEditDto.cs",
-              "ToolTip": "C:\\Users\\Admin1\\Documents\\Recursos\\NetCore\\SchoolAPI\\SchoolAPI.Share\\Dto\\ModelsDto\\StudenEditDto.cs",
-              "RelativeToolTip": "SchoolAPI.Share\\Dto\\ModelsDto\\StudenEditDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin1\\Documents\\Recursos\\NetCore\\SchoolAPI\\SchoolAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin1\\Documents\\Recursos\\NetCore\\SchoolAPI\\SchoolAPI\\Program.cs",
+              "RelativeToolTip": "SchoolAPI\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T21:45:29.423Z",
+              "WhenOpened": "2024-03-01T20:54:33.312Z",
               "EditorCaption": ""
             }
           ]

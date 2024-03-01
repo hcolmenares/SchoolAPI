@@ -10,9 +10,9 @@ namespace SchoolAPI.Data
         {
             services.AddDbContext<Context>((serviceProvider, options) =>
             {
-                //options.UseMySql(configuration.GetConnectionString("connection"),
-                //    new MySqlServerVersion(new Version(8, 0, 27)));
-                options.UseSqlite(configuration.GetConnectionString("connection"));
+                options.UseMySql(configuration.GetConnectionString("connection"),
+                    new MySqlServerVersion(new Version(8, 0, 36)));
+                //options.UseSqlite(configuration.GetConnectionString("connection"));
             });
         }
     }

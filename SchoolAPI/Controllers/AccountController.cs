@@ -65,11 +65,11 @@ namespace SchoolAPI.Controllers
             if (isCreated.Succeeded)
             {
                 // Asignar el rol "Visitante" al usuario recién creado por ID
-                var role = await _roleManager.FindByIdAsync(VisitanteRoleId);
-                if (role != null)
-                {
-                    await _userManager.AddToRoleAsync(user, role.Name);
-                }
+                //var role = await _roleManager.FindByIdAsync(VisitanteRoleId);
+                //if (role != null)
+                //{
+                //    await _userManager.AddToRoleAsync(user, role.Name);
+                //}
 
                 await SendVerificationEmail(user);
 
@@ -290,7 +290,7 @@ namespace SchoolAPI.Controllers
             var verificationCode = await _userManager.GenerateEmailConfirmationTokenAsync(user);
             verificationCode = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(verificationCode));
 
-            var callBackUrl = $@"{Request.Scheme}://{Request.Host}{Url.Action("ConfirmEmail", controller: "Authentication",
+            var callBackUrl = $@"{Request.Scheme}://{Request.Host}{Url.Action("ConfirmEmail", controller: "Account",
                                     new { userId = user.Id, code = verificationCode })}";
 
             var emailBody = $@"Please confirm your email by <a href='{HtmlEncoder.Default.Encode(callBackUrl)}'>clicking here</a>";
